@@ -1,0 +1,9 @@
+"use client";
+
+export const checkDateIsEqual = (date1: Date, date2: Date) => {
+    const isCurrentYear = date1.getFullYear() === date2.getFullYear();
+    const isCurrentMonth = date1.getMonth() === date2.getMonth();
+    const isCurrentDate = date1.getDate() === date2.getDate();
+
+    return isCurrentYear && isCurrentMonth && isCurrentDate;
+}

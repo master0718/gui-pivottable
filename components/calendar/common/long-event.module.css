@@ -1,0 +1,22 @@
+.arrow {
+    position: absolute;
+    width: 11px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    top: 0px;
+    bottom: 2px;
+    border-style: solid;
+    border-top-width: 11px;
+    border-bottom-width: 11px;
+    border-color: transparent;
+}
+
+.right {
+    right: -11px;
+    border-left-width: 8px;
+}
+
+.left {
+    border-right-width: 8px;
+    left: -11px;
+}
